@@ -1,0 +1,51 @@
+body {
+    background-color: #1F2023;
+}
+
+.titulo {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+.itens {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+a:link {
+    color: white;
+}
+
+a:visited {
+    color: white;
+}
+
+a:hover {
+    color: #DAE200;
+}
+
+.desafio1 {
+    font-family: 'Roboto', sans-serif;
+    color: orange;
+}
+
+#lista1 {
+    width: 100px;
+    height: 80px;
+    padding-top: 30px;
+    font-family: 'Roboto', sans-serif;
+    color: #2CAAF6;
+    background-color: rgb(50, 74, 168);
+    list-style-type:circle;
+
+}
+
+#lista2 {
+    width: 100px;
+    height: 80px;
+    padding-top: 30px;
+    font-family: 'Roboto', sans-serif;
+    color: #2CAAF6;
+    background-color: rgb(50, 74, 168);
+    list-style-type:square;
+}
