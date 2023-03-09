@@ -5,6 +5,7 @@ body {
 .titulo {
     font-family: 'Roboto', sans-serif;
     color: white;
+    padding-bottom: 10px;
 }
 
 .itens {
@@ -12,19 +13,19 @@ body {
     color: white;
 }
 
-a:link {
+.itensLink:link {
     color: white;
 }
 
-a:visited {
+.itensLink:visited {
     color: white;
 }
 
-a:hover {
+.itensLink:hover {
     color: #DAE200;
 }
 
-.desafio1 {
+.paragrafo {
     font-family: 'Roboto', sans-serif;
     color: orange;
 }
@@ -36,8 +37,7 @@ a:hover {
     font-family: 'Roboto', sans-serif;
     color: #2CAAF6;
     background-color: rgb(50, 74, 168);
-    list-style-type:circle;
-
+    list-style-type: circle;
 }
 
 #lista2 {
@@ -47,5 +47,142 @@ a:hover {
     font-family: 'Roboto', sans-serif;
     color: #2CAAF6;
     background-color: rgb(50, 74, 168);
-    list-style-type:square;
+    list-style-type: square;
+}
+
+.containerUm {
+    border: solid 1px white;
+    display: inline-block;
+    font-size: 32px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    width: 100px;
+    height: 110px;
+    overflow: hidden;
+    margin: 8px;
+}
+
+.containerDois {
+    border: solid 1px white;
+    display: inline-block;
+    font-size: 32px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    width: 150px;
+    height: 110px;
+    overflow: hidden;
+    margin: 8px;
+    padding-top: 30px;
+    padding-left: 5px;
+
+}
+
+.containerTres {
+    border: dashed 1px white;
+    display: inline-block;
+    font-size: 32px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    width: 100px;
+    height: 110px;
+    overflow: scroll;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 8px;
+    margin-right: 8px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 9px;
+    padding-right: 9px;
+}
+
+.containerQuatro {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+.bloco {
+    display: inline;
+}
+
+.linha {
+    display: block;
+}
+
+.nomeCoder {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+.paragrafoLink {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+.caixaContato {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+.nome {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-color: #DAE200;
+    border-width: 3px;
+    border-style: solid;
+}
+
+.nome:focus {
+    background-color: #DEDEDE;
+}
+
+.email {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-color: #DAE200;
+    border-width: 3px;
+    border-style: solid;
+}
+
+.email:focus {
+    background-color: #DEDEDE;
+}
+
+.nomeCoder:hover {
+    color: orange;
+}
+
+.nomeCoder {
+    font-size: 30px;
+    font-weight: bolder;
+    font-style: italic;
+}
+
+.texto {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-color: #DAE200;
+    border-width: 3px;
+    border-style: solid;
+}
+
+.botao {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.link:visited {
+    color:blueviolet;
+}
+
+.link:active {
+    color:crimson;
 }
