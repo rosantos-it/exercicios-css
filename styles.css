@@ -30,7 +30,7 @@ body {
     color: orange;
 }
 
-#lista1 {
+#listaUm {
     width: 100px;
     height: 80px;
     padding-top: 30px;
@@ -40,7 +40,7 @@ body {
     list-style-type: circle;
 }
 
-#lista2 {
+#listaDois {
     width: 100px;
     height: 80px;
     padding-top: 30px;
@@ -180,9 +180,123 @@ body {
 }
 
 .link:visited {
-    color:blueviolet;
+    color: blueviolet;
 }
 
 .link:active {
-    color:crimson;
+    color: crimson;
 }
+
+.listasUm {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+.listasDois {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+.listasTres {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+.listasQuatro {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+.listasDois:first-child {
+    color: red;
+}
+
+.listasDois:last-child {
+    color: red;
+}
+
+.listasDois:nth-child(2) {
+    color: blue;
+}
+
+div ol li:first-of-type {
+    color: violet;
+}
+
+div ol li:last-of-type {
+    color: violet;
+}
+
+div ol li:nth-of-type(3) {
+    color: orange;
+}
+
+.item {
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+}
+
+.item:not(span) {
+    color: yellow;
+}
+
+option:disabled {
+    color: red;
+}
+
+.validoInvalido[type=email]:invalid {
+    color: red;
+}
+
+.validoInvalido[type=email]:valid {
+    color: blue;
+}
+
+.validoInvalido:required {
+    background-color: aqua;
+}
+
+.checked:checked {
+    outline: 2px solid red;
+}
+
+.paragrafoText {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+.paragrafoTextUm {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+.paragrafoTextDois {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+.paragrafoTextTres {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+.paragrafoTextUm::before {
+    content: "Antes";
+    color: orange;
+}
+
+.paragrafoTextUm::after {
+    content: "Depois";
+    color: orange;
+}
+
+.paragrafoTextDois::first-letter {
+    text-transform: uppercase;
+}
+
+.teste::first-line {
+    color: orange;
+}
+
+
+
