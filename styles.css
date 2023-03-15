@@ -298,5 +298,169 @@ option:disabled {
     color: orange;
 }
 
+.gradienteUm {
+    width: 800px;
+    height: 100px;
+    margin-bottom: 5px;
+    background-image: linear-gradient(to bottom, red, yellow);
+}
+
+.gradienteDois {
+    width: 800px;
+    height: 100px;
+    margin-bottom: 5px;
+    background-image: linear-gradient(to right, red, yellow);
+}
+
+.gradienteTres {
+    width: 800px;
+    height: 100px;
+    margin-bottom: 5px;
+    background-image: linear-gradient(to left, red, yellow);
+}
+
+.gradienteQuatro {
+    width: 800px;
+    height: 100px;
+    margin-bottom: 5px;
+    background-image: linear-gradient(to top, red, yellow);
+}
+
+.gradienteCinco {
+    width: 800px;
+    height: 100px;
+    margin-bottom: 5px;
+    background-image: linear-gradient(45deg, red, yellow);
+}
+
+.gradienteSeis {
+    width: 800px;
+    height: 100px;
+    margin-bottom: 5px;
+    background-image: radial-gradient(red, yellow);
+}
+
+.translate {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 60px;
+    margin-left: 20px;
+    background-color: red;
+    border: 1px solid black;
+    transform: translate(10px, 20px);
+}
 
 
+.rotate {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 60px;
+    margin-left: 20px;
+    background-color: red;
+    border: 1px solid black;
+    transform: rotate(30deg);
+}
+
+.rotateX {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 60px;
+    margin-left: 20px;
+    background-color: red;
+    border: 1px solid black;
+    transform: rotateX(60deg);
+}
+
+.rotateY {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 60px;
+    margin-left: 20px;
+    background-color: red;
+    border: 1px solid black;
+    transform: rotateY(60deg);
+}
+
+.rotateZ {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 60px;
+    margin-left: 20px;
+    background-color: red;
+    border: 1px solid black;
+    transform: rotateZ(60deg);
+}
+
+.elementoUm {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 60px;
+    margin-left: 55px;
+    background-color: red;
+    border: 1px solid black;
+    transform: scale(2,1);
+}
+
+.elementoDois {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 60px;
+    margin-left: 20px;
+    background-color: red;
+    border: 1px solid black;
+    transform: all 2s;
+}
+
+.elementoDois:hover {
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+}
+
+
+.elementoTres {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 60px;
+    margin-left: 20px;
+    background-color: red;
+    border: 1px solid black;
+    transform: all 2s;
+    transition: all 2s;
+}
+
+.elementoTres:hover {
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+    background-color: cyan;
+}
+
+.elementoQuatro {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 60px;
+    margin-left: 20px;
+    background-color: red;
+    border: 1px solid black;
+    transition: height 2s;
+}
+
+.elementoQuatro:hover {
+    height: 200px;
+}
+
+.elementoCinco {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 60px;
+    margin-left: 20px;
+    background-color: red;
+    border: 1px solid black;
+    transition: height 2s;
+}
+
+.elementoCinco:hover {
+    height: 200px;
+    background-color: cyan;
+}
