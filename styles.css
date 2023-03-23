@@ -398,7 +398,7 @@ option:disabled {
     margin-left: 55px;
     background-color: red;
     border: 1px solid black;
-    transform: scale(2,1);
+    transform: scale(2, 1);
 }
 
 .elementoDois {
