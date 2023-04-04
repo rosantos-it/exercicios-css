@@ -125,10 +125,7 @@ body {
 }
 
 .nome {
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
+    border-radius: 20px;
     border-color: #DAE200;
     border-width: 3px;
     border-style: solid;
